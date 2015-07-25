@@ -44,7 +44,7 @@ class Api
             'owner_id' => $this->data['user_id'],
             'album_id' => $aid,
             'offset' => $offset,
-            'count' => 1,
+            'count' => 1000,
             'access_token' => $this->data['access_token'],
             'v' => $this->apiVer,
         ];

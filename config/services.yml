@@ -1,0 +1,17 @@
+services:
+  api:
+    class: Photomover\Service\Api
+    arguments:
+      - %api_ver%
+  authorizer:
+    class: Photomover\Service\Authorizer
+    arguments:
+      - %client_id%
+      - %client_secret%
+      - %api_ver%
+      - %vk_login%
+      - %vk_pass%
+  logger:
+    class: Photomover\Service\Logger
+    arguments:
+      - %debug%

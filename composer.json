@@ -18,11 +18,14 @@
   },
   "require": {
     "php": ">=5.5.0",
+    "monolog/monolog": "^1.15",
     "guzzlehttp/guzzle": "@dev",
     "symfony/console": "^2.7",
     "symfony/dom-crawler": "^2.7",
     "symfony/css-selector": "^2.7",
-    "vlucas/phpdotenv": "^2.0"
+    "symfony/dependency-injection": "^2.7",
+    "symfony/yaml": "^2.7",
+    "symfony/config": "^2.7"
   },
   "autoload": {
     "psr-4": {

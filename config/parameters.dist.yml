@@ -1,0 +1,7 @@
+parameters:
+  debug: 0
+  client_id: your_client_id
+  client_secret: your_client_secret
+  api_ver: 5.35
+  vk_login: your_vk_login
+  vk_pass: your_vk_password

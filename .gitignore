@@ -8,5 +8,9 @@
 vendor/
 composer.lock
 
-# Application
-.env
+# Config
+config/parameters.yml
+
+# Log
+log/*
+!log/.gitkeep

@@ -3,8 +3,6 @@
 namespace Photomover\Service;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Promise\FulfilledPromise;
-use GuzzleHttp\Promise\Promise;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;

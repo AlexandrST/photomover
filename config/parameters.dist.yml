@@ -5,3 +5,4 @@ parameters:
   api_ver: 5.35
   vk_login: your_vk_login
   vk_pass: your_vk_password
+  api_rps_limit: 5

@@ -2,7 +2,10 @@ services:
   api:
     class: Photomover\Service\Api
     arguments:
+      - %user_id%
+      - %access_token%
       - %api_ver%
+      - %api_rps_limit%
   authorizer:
     class: Photomover\Service\Authorizer
     arguments:
@@ -11,7 +14,3 @@ services:
       - %api_ver%
       - %vk_login%
       - %vk_pass%
-  logger:
-    class: Photomover\Service\Logger
-    arguments:
-      - %debug%

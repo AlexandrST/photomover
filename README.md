@@ -1,22 +1,13 @@
 # PhotoMover (STILL IN DEVELOPMENT)
 
-Переносит фотографии между альбомами пользователя.  
-**Использовать на свой страх и риск!** :joy:
+Moves photos between VK albums
+  
+**Use it on your own risk!** :joy:
 
-# Известные недоработки
+# Usage
 
-- Некорректно кушает oauth code (себя давно авторизовал в приложении)
-- По чудесным причинам порой падает
-
-# Как пользоваться?
-
-1. Запустить `composer install`
-2. Прописать свои данные в файле `.env`
-3. Запустить `php photomover.php`
-4. Предложит выбрать альбом "откуда", выбираем ID
-5. Предложит выбрать альбом "куда", выбираем ID
-6. Ждем
-
-# P.S.
-
-Предложения/замечания принимаем в issues.
+1. Run `composer install -o`
+2. Edit `config/parameters.yml` (rename from `config/parameters.dist.yml` if needed)
+3. Run `php photomover.php`
+4. Choose "from" and "to" albums
+6. Wait
